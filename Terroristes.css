@@ -1,0 +1,82 @@
+body {
+    height: 100vh;
+    background-image: url("https://cdn.wallpapersafari.com/19/39/EPAiYq.jpg");
+    background-size: 1950px;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin:0;
+}
+div.menu {
+    float: left;
+    height:100%;
+    width:10%;
+    background-color: rgba(253, 253, 253, 0.164);
+    text-align: center;
+    font-size: xx-large;
+    position: fixed;
+}
+.logo {
+    width:125px;
+}
+.esl {
+    width:125px; 
+}
+.armes {
+    width:125px;
+}
+.antitero {
+    width:135px;
+
+}
+.tero {
+    width: 135px;
+}
+.CV{
+    width:125px;
+}
+.cartes{
+    width:130px;
+}
+.zoomlogo{
+    height:90px;
+    margin:auto;
+}
+.zoomlogo img:hover{
+    width:130px;
+}
+.zoomarmes{
+    height:60px;
+    margin:auto;
+}
+.zoomarmes img:hover{
+    width:130px;
+}
+.zoomequipe {
+    height:325px;
+    margin:auto;
+}
+.zoomequipe img:hover{
+    width:140px;
+    height:140px;
+}
+.zoomcartes{
+    height:170px;
+    margin:auto;
+}
+.zoomcartes img:hover{
+    width:140px;
+}
+.zoomesport{
+    height:90px;
+    margin:auto;
+}
+.zoomesport img:hover{
+    width:130px;
+}
+.zoomcv{
+    height:20px;
+    margin:auto;
+}
+.zoomcv img:hover{
+    width:130px;
+}

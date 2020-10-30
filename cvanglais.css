@@ -1,0 +1,142 @@
+body {
+    height: 100vh;
+    background-image: url("https://wallpapercave.com/wp/huDiDyr.jpg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+    margin:0;
+    margin-top:0;
+}
+div.menu {
+    float: left; 
+    height:100%;
+    width:10%;
+    background-color: rgba(253, 253, 253, 0.164);
+    text-align: center;
+    font-size: xx-large;
+    position: fixed;
+}
+.logo {
+    width:125px;
+}
+.esl {
+    width:125px;
+}
+.armes {
+    width:125px;
+}
+.antitero {
+    width:135px;
+}
+.tero {
+    width: 135px;
+}
+.CV{
+    width:125px;
+}
+.cartes{
+    width:130px;
+}
+.drapeau{
+    float:right;
+    width:100px;
+}
+.zoomdrapeau{
+    height:50px;
+}
+.zoomdrapeau img:hover{
+    width:110px;
+}
+.zoomlogo{
+    height:90px;
+    margin:auto;
+}
+.zoomlogo img:hover{
+    width:130px;
+}
+.zoomarmes{
+    height:60px;
+    margin:auto;
+}
+.zoomarmes img:hover{
+    width:130px;
+}
+.zoomequipe {
+    height:325px;
+    margin:auto;
+}
+.zoomequipe img:hover{
+    width:140px;
+    height:140px;
+}
+.zoomcartes{
+    height:170px;
+    margin:auto;
+}
+.zoomcartes img:hover{
+    width:140px;
+}
+.zoomesport{
+    height:90px;
+    margin:auto;
+}
+.zoomesport img:hover{
+    width:130px;
+}
+.zoomcv{
+    height:20px;
+    margin:auto;
+}
+.zoomcv img:hover{
+    width:130px;
+}
+.lecv{
+    height:130%;
+    width:50%;
+    background-color: white;
+    top:5%;
+    left:30%;
+    position: relative;
+    font-size : 16px;
+    font-family : 'Source sans Pro',Tahoma, sans-serif;
+    padding:40px;
+    border:5px;
+    border-radius:10px;
+    box-shadow: 2px 4px 3px black;
+}
+.section{
+    margin-bottom: 70px;
+    text-align:justify;
+}
+.sec-gauche{
+    float: left;
+    font-weight: bold;
+    font-size:20px;
+}
+.sec-mid{
+    margin-left:90px;
+}
+.sec-droite{
+    margin-left: 160px;
+    margin-top: 37px;
+}
+strong{
+    font-size:26px;
+}
+h2{
+    font-size:28px;
+    color : #009dff;
+    text-transform: uppercase;
+    border-bottom: 3px solid #0080ff;
+}
+#forma-gauche p{
+    margin-bottom: 37px;
+}
+.titre{
+    font-weight: bold;
+    font-size: 20px;
+}
+.sec-droite-com{
+    margin-left:500px;
+    margin-top:37px;
+}
