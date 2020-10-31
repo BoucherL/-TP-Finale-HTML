@@ -1,48 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Mécanismes.css">
+    <link rel="icon"
+        href="data:image/png;base64,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">
     <title>Mécanismes</title>
 </head>
+
 <body>
     <div class="menu">
         <div class="zoomlogo">
             <a href="Monsite.html">
-        <img class="logo" src="https://pngimage.net/wp-content/uploads/2018/05/csgo-logo-png-16.png">
-        </a>
+                <img class="logo" src="https://pngimage.net/wp-content/uploads/2018/05/csgo-logo-png-16.png">
+            </a>
         </div>
         <HR width=100% noshade size=2>
         Menu
         <div class="zoomarmes">
-        <a href="Mécanismes.html"> 
-            <img class="armes" src="https://www.freeiconspng.com/uploads/ak47-hud-csgo-png-icon-25.png">
-        </a>
-    </div>
-        <div class="zoomequipe">
-        <a href="Antiterroristes.html">
-            <img class="antitero" src="https://steamuserimages-a.akamaihd.net/ugc/943949966269510816/E375CFFB04559F82BF8169264A923F68059C26E3/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true">
-        </a>
-        <a href="Terroristes.html">
-            <img class="tero" src="https://steamuserimages-a.akamaihd.net/ugc/106232282986851808/3A6E9A909AF28ECCB885088460021BE52C641676/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true">
+            <a href="Mécanismes.html">
+                <img class="armes" src="https://www.freeiconspng.com/uploads/ak47-hud-csgo-png-icon-25.png">
             </a>
-            </div>
-            <div class="zoomcartes">
-                <a href="cartes.html">
-                    <img class="cartes" src="https://www.vakarm.net/files/battas/de_dust2.png">
-                </a>
-            </div>
-            <div class="zoomesport">
-        <a href="esport.html">
-            <img class="esl" src="https://storage-asset.msi.com/event/2019/esl-partner/images/esl-logo-2.png">
-        </a>
+        </div>
+        <div class="zoomequipe">
+            <a href="Antiterroristes.html">
+                <img class="antitero"
+                    src="https://steamuserimages-a.akamaihd.net/ugc/943949966269510816/E375CFFB04559F82BF8169264A923F68059C26E3/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true">
+            </a>
+            <a href="Terroristes.html">
+                <img class="tero"
+                    src="https://steamuserimages-a.akamaihd.net/ugc/106232282986851808/3A6E9A909AF28ECCB885088460021BE52C641676/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true">
+            </a>
+        </div>
+        <div class="zoomcartes">
+            <a href="cartes.html">
+                <img class="cartes" src="https://www.vakarm.net/files/battas/de_dust2.png">
+            </a>
+        </div>
+        <div class="zoomesport">
+            <a href="esport.html">
+                <img class="esl" src="https://storage-asset.msi.com/event/2019/esl-partner/images/esl-logo-2.png">
+            </a>
         </div>
         <div class="zoomcv">
-        <a href="cvfr.html">
-            <img class="CV" src="https://image.flaticon.com/icons/png/512/52/52762.png">
-        </a>
+            <a href="cvfr.html">
+                <img class="CV" src="https://image.flaticon.com/icons/png/512/52/52762.png">
+            </a>
         </div>
     </div>
 </body>
+
 </html>
