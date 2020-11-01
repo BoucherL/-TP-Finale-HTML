@@ -9,12 +9,11 @@ body {
 
 div.menu {
     float: left;
-    height: 110%;
+    height: 115%;
     width: 10%;
     background-color: rgba(253, 253, 253, 0.164);
     text-align: center;
     font-size: xx-large;
-    position: fixed;
 }
 
 .logo {
@@ -99,4 +98,56 @@ div.menu {
 
 .zoomcv img:hover {
     width: 130px;
+}
+.page{
+    height:600%;
+    top:105%;
+    background: radial-gradient(rgb(147, 158, 192),black);
+    position: relative;
+    font-family : 'Source sans Pro',Tahoma, sans-serif;
+    padding:40px;
+    text-align:center;
+}
+p{
+    color:#ffffff;
+    font-size:large;
+}
+h1{
+    color:#ffffff;
+    text-align: center;
+    margin:0;
+}
+h2{
+    color:#000000;
+    text-decoration:underline;
+}
+.katowice{
+    width:700px;
+}
+table{
+    border-width:3px;
+    border-style:solid;
+    border-color:black;
+    width:50%;
+    vertical-align: middle;
+    background-color: rgb(43, 42, 42);
+    margin-left: 25%;
+    color:white;
+}
+td{
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+}
+.eslone{
+    width:700px;
+}
+.astralis{
+    width:700px;
+}
+.g2{
+    width:700px;
+}
+.vitality{
+    width:700px;
 }
