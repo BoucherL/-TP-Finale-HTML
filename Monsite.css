@@ -1,12 +1,12 @@
-body {
+body { 
     height: 100vh;
-    background-image: url("https://images3.alphacoders.com/570/thumb-1920-570388.jpg");
+    background-image: url("https://images3.alphacoders.com/570/thumb-1920-570388.jpg");/*ajouter un fond d'écran*/
     background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin:0;
+    background-position: cover;/*Centre le fond d'écran*/
+    background-repeat: no-repeat;/*l'image en fond d'écran ne répéte pas plusieurs pour combler*/
+    margin:0;/*aucune marge*/
 }
-div.menu {
+div.menu {/*css menu*/
     float: left;
     height:115%;
     width:10%;

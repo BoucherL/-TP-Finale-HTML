@@ -2,7 +2,7 @@ body {
     height: 100vh;
     background-image: url("https://cdn.wallpapersafari.com/19/39/EPAiYq.jpg");
     background-size: 1950px;
-    background-position: center;
+    background-position: cover;
     background-repeat: no-repeat;
     margin: 0;
 }

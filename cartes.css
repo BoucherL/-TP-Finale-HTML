@@ -2,7 +2,7 @@ body {
     height: 100vh;
     background-image: url("https://images8.alphacoders.com/736/thumb-1920-736302.png");
     background-size: auto;
-    background-position: center;
+    background-position: cover;
     background-repeat: no-repeat;
     margin: 0;
 }

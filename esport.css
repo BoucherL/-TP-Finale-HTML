@@ -2,7 +2,7 @@ body {
     height: 100vh;
     background-image: url("https://media.melty.fr/article-4116568-so/media.jpg");
     background-size: auto;
-    background-position: center;
+    background-position: cover;
     background-repeat: no-repeat;
     margin: 0;
 }

@@ -101,7 +101,7 @@ div.menu {
 }
 .page{
     height:2100%;
-    top:105%;
+    top:100%;
     background: radial-gradient(rgb(42, 48, 70),black);
     position: relative;
     font-family : 'Source sans Pro',Tahoma, sans-serif;
@@ -128,5 +128,8 @@ h2{
     width:500px;
 }
 .usp{
+    width:500px;
+}
+.deserteagle{
     width:500px;
 }
