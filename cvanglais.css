@@ -2,23 +2,23 @@ body {
     height: 100vh;
     background-image: url("https://wallpapercave.com/wp/huDiDyr.jpg");
     background-size: auto;
-    background-position: center;
-    background-repeat: repeat;
+    background-position: center;/*centre le fond d'écran*/
+    background-repeat: repeat;/*répéte le fond d'écran à la suite*/
     margin: 0;
     margin-top: 0;
 }
 
 div.menu {
-    float: left;
+    float: left;/*place le menu à gauche*/
     height: 25%;
     width: 10%;
     background-color: rgba(253, 253, 253, 0.164);
     text-align: center;
     font-size: xx-large;
     position: fixed;
-    border: 5px;
+    border: 5px;/*mais des bordure 5px*/
     border-radius: 10px;
-    box-shadow: 2px 4px 3px black;
+    box-shadow: 2px 4px 3px black;/*ombre bordure*/
 }
 
 .logo {
@@ -60,9 +60,9 @@ div.menu {
     height: 130%;
     width: 50%;
     background-color: white;
-    top: 5%;
+    top: 5%;/*5% à partir du haut*/
     left: 30%;
-    position: relative;
+    position: relative;/*positionne
     font-size: 16px;
     font-family: 'Source sans Pro', Tahoma, sans-serif;
     padding: 40px;
@@ -72,23 +72,23 @@ div.menu {
 }
 
 .section {
-    margin-bottom: 70px;
+    margin-bottom: 70px;/*marge du bas*/
     text-align: justify;
 }
 
 .sec-gauche {
     float: left;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: bold;/*police d'écriture en gras*/
+    font-size: 20px;/*taille de l'écriture*/
 }
 
 .sec-mid {
-    margin-left: 90px;
+    margin-left: 90px;/*marge gauche*/
 }
 
 .sec-droite {
     margin-left: 160px;
-    margin-top: 37px;
+    margin-top: 37px;/*marge du haut*/
 }
 
 strong {
@@ -99,7 +99,7 @@ h2 {
     font-size: 28px;
     color: #009dff;
     text-transform: uppercase;
-    border-bottom: 3px solid #0080ff;
+    border-bottom: 3px solid #0080ff;/*bordure par au titre*/
 }
 
 #forma-gauche p {

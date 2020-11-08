@@ -13,9 +13,9 @@ body {
 
 div.menu {
     /*css menu*/
-    height: 115%;
-    width: 10%;
-    background-color: rgba(253, 253, 253, 0.164);
+    height: 115%;/*taille d'image*/
+    width: 10%;/*largeur d'image*/
+    background-color: rgba(253, 253, 253, 0.164);/*couleur du fond du menu*/
     text-align: center;
     font-size: xx-large;
 }
@@ -107,15 +107,15 @@ h1 {
 }
 
 .page {
-    background: radial-gradient(rgb(71, 71, 71), black);
+    background: radial-gradient(rgb(71, 71, 71), black);/*couleur et dégrader du fond d'écran*/
     position: relative;
-    font-family: 'Source sans Pro', Tahoma, sans-serif;
+    font-family: 'Source sans Pro', Tahoma, sans-serif;/*police d'écriture*/
     padding: 40px;
     text-align: center;
 }
 
 h2 {
-    text-decoration: underline;
+    text-decoration: underline;/*sousligner*/
 }
 
 .rank {
@@ -138,11 +138,11 @@ h2 {
     width: 700px;
 }
 
-img {
+img {/*toute les images*/
     max-width: 100%;
     height: auto;
 }
 
-iframe {
+iframe {/*la vidéo*/
     max-width: 100%;
 }
