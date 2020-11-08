@@ -8,8 +8,7 @@ body {
 }
 
 div.menu {
-    float: left;
-    height: 115%;
+    height: 105%;
     width: 10%;
     background-color: rgba(253, 253, 253, 0.164);
     text-align: center;
@@ -99,43 +98,56 @@ div.menu {
 .zoomcv img:hover {
     width: 130px;
 }
-.page{
-    height:2100%;
-    top:100%;
-    background: radial-gradient(rgb(42, 48, 70),black);
+
+.page {
+    background: radial-gradient(rgb(42, 48, 70), black);
     position: relative;
-    font-family : 'Source sans Pro',Tahoma, sans-serif;
-    padding:40px;
-    text-align:center;
-}
-p{
-    color:#ffffff;
-    font-size:large;
-}
-h1{
-    color:#ffffff;
+    font-family: 'Source sans Pro', Tahoma, sans-serif;
+    padding: 40px;
     text-align: center;
-    margin:0;
 }
-h2{
-    color:#707070;
-    text-decoration:underline;
+
+p {
+    color: #ffffff;
+    font-size: large;
 }
-.skinknife{
-    width:800px;
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
 }
-.p2000{
-    width:500px;
+
+h2 {
+    color: #707070;
+    text-decoration: underline;
 }
-.usp{
-    width:500px;
+
+.skinknife {
+    width: 800px;
 }
-.deserteagle{
-    width:500px;
+
+.p2000 {
+    width: 500px;
 }
-.m4{
-    width:500px;
+
+.usp {
+    width: 500px;
 }
-.scar20{
-    width:500px;
+
+.deserteagle {
+    width: 500px;
+}
+
+.m4 {
+    width: 500px;
+}
+
+.scar20 {
+    width: 500px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }

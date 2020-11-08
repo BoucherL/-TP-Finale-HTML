@@ -10,44 +10,22 @@ body {
 
 div.menu {
     float: left;
-    height: 100%;
+    height: 25%;
     width: 10%;
     background-color: rgba(253, 253, 253, 0.164);
     text-align: center;
     font-size: xx-large;
     position: fixed;
+    border: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px black;
 }
 
 .logo {
     width: 125px;
 }
 
-.esl {
-    width: 125px;
-}
-
-.armes {
-    width: 125px;
-}
-
-.antitero {
-    width: 135px;
-}
-
-.tero {
-    width: 135px;
-}
-
-.CV {
-    width: 125px;
-}
-
-.cartes {
-    width: 130px;
-}
-
 .drapeau {
-    float: right;
     width: 100px;
 }
 
@@ -68,15 +46,6 @@ div.menu {
     width: 130px;
 }
 
-.zoomarmes {
-    height: 60px;
-    margin: auto;
-}
-
-.zoomarmes img:hover {
-    width: 130px;
-}
-
 .zoomequipe {
     height: 325px;
     margin: auto;
@@ -85,33 +54,6 @@ div.menu {
 .zoomequipe img:hover {
     width: 140px;
     height: 140px;
-}
-
-.zoomcartes {
-    height: 170px;
-    margin: auto;
-}
-
-.zoomcartes img:hover {
-    width: 140px;
-}
-
-.zoomesport {
-    height: 90px;
-    margin: auto;
-}
-
-.zoomesport img:hover {
-    width: 130px;
-}
-
-.zoomcv {
-    height: 20px;
-    margin: auto;
-}
-
-.zoomcv img:hover {
-    width: 130px;
 }
 
 .lecv {
@@ -172,4 +114,9 @@ h2 {
 .sec-droite-com {
     margin-left: 500px;
     margin-top: 37px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
