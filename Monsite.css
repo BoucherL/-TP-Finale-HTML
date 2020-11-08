@@ -106,7 +106,7 @@ h1 {
     width: 130px;
 }
 
-.page {
+.page { 
     background: radial-gradient(rgb(71, 71, 71), black);/*couleur et dégrader du fond d'écran*/
     position: relative;
     font-family: 'Source sans Pro', Tahoma, sans-serif;/*police d'écriture*/
